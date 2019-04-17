@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Gothic+A1|Mrs+Saint+Delafield|News+Cycle|Playfair+Display" rel="stylesheet">
+<body>
+    <header>
+    </header>
+    <div class="flexbox">
+        <div id="form">
+        <header> 
+        <h3>The Minimamlist Invitiation Designer</h3>
+        <button id="greenery">Greenery</button>
+        <button id="spring">Spring</button>
+        <button id="foil">Blue Foil</button><br>
+        </header>
+        <div id="fields">
+        <label for="name1">Name 1</label><br>
+        <input id ="first-input" type="text" placeholder="Enter Full Name Here"><br>
+
+        <label for="name2">Name 2</label><br>
+        <input id ="second-input" type="text" placeholder="Enter Full Name Here"><br>
+        
+        <label for="date">Wedding Date</label><br>
+        <input id="date-input" type="date"><br>
+        
+        <label for="weddinglocation">Location</label><br>
+        <input id="location-input" type="text" placeholder="Enter Wedding Location"><br>
+    </div>    
+    </div>
+        <div id="template">
+            <div id="invitation">
+            <p id="initial1-output" class="initial">A</p>
+                <p class="initial">&</p>
+                <p id="initial2-output" class="initial">A</p>
+                <p class="invited">You Are Cordially Invited To</p>
+                <p id="first-output" class="name">Enter a Name</p>
+                <p class="and">&</p>
+                <p id="second-output" class="name">Enter a Name</p>
+                <p id="date-output" class="date">Wedding Date</p>
+                <p id="location-output" class="location">Enter a Location</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

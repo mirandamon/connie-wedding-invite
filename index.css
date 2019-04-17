@@ -1,0 +1,321 @@
+html {
+    font-size: 16px;
+}
+
+body { 
+    background-color: #EEEEEE;
+}
+
+h3 {
+    font-family: 'Gothic A1', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 0 0 24px 0;
+}
+
+header {
+    transition-duration: .2s;
+    transition-property: all;
+}
+
+button {
+    padding: 8px;
+    margin: 0 8px 0px 8px; 
+    font-size: .75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    background-color: transparent;
+    color: #424242;
+    border: none;
+    border-bottom: 2px solid #424242;
+}
+
+button:hover {
+    color: #0277BD;
+    border-bottom: 2px solid #0277BD;
+    font-weight: 600;
+}
+
+#fields {
+    margin-top: 24px;
+}
+
+input {
+    width: 75%; 
+    padding: 8px;
+    margin: 0px 0 32px 0; 
+    border: none;
+    border-bottom: 1px solid #607D8B;
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .5px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .75em;
+    color: #616161;
+}
+
+.flexbox {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+}
+
+#form {
+    margin-top: 50px;
+    width: 100%;
+}
+
+p {
+    margin: 0px;
+}
+
+input[type="date"] {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.greenerytext {
+    margin-top: 175px;
+    text-align: center;
+}
+
+.greenerytext .initial {
+    display: inline;
+    padding: 0 4px 0 4px;
+    color: #2E7D32;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.greenerytext .invited {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color: #2E7D32;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: .75em;
+    text-transform: uppercase;
+}
+
+.greenerytext .name {
+    color: #757575;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 2.25em;
+    margin: 0px;
+}
+
+.greenerytext .and {
+    color: #757575;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.125em;
+    margin: 0px;
+}
+
+.greenerytext .date {
+    margin-top: 8px;
+    color: #2E7D32;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: .75em;
+    text-transform: uppercase;
+}
+
+.greenerytext .location {
+    margin-top: 16px;
+    color: #2E7D32;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: .75em;
+    text-transform: uppercase;
+}
+
+.springtext {
+    margin-top: 175px;
+    text-align: center;
+}
+
+.springtext .initial {
+    display: none;
+}
+
+.springtext .invited {
+    margin-bottom: 16px;
+    color: #757575;
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+}
+
+.springtext .name {
+    color: #C2185B;
+    font-family: 'Alex Brush', cursive;
+    font-size: 2em;
+    margin: 0px;
+}
+
+.springtext .and {
+    color: #757575;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 3.5em;
+    margin: 0 0 -20px 0;
+}
+
+.springtext .date {
+    margin-top: 16px;
+    color: #757575;
+    font-family: 'Playfair Display', serif;
+    font-size: .75em;
+}
+
+.springtext .location {
+    margin-top: 8px;
+    color: #757575;
+    font-family: 'Playfair Display', serif;
+    font-size: .75em;
+    text-transform: capitalize;
+}
+
+.foiltext {
+    margin-top: 375px;
+    text-align: center;
+}
+
+.foiltext .initial {
+    display: none;
+}
+
+.foiltext .name {
+    color: #EEEEEE;
+    font-family: 'News Cycle', sans-serif;
+    font-size: .875em;
+    margin: 0px;
+    text-transform: uppercase;
+    display: inline;
+    letter-spacing: 1px;
+}
+
+.foiltext .invited {
+    display: none;
+}
+
+.foiltext .and {
+    display: inline;
+    color: #EEEEEE;
+    font-family: 'Alex Brush', cursive;
+    font-size: 1.5em;
+    margin: 0 8px 0 8px;
+    text-transform: uppercase;
+}
+
+.foiltext .date {
+    margin-top: 16px;
+    color: #EEEEEE;
+    font-family: 'News Cycle', sans-serif;
+    font-size: .6em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.foiltext .location {
+    margin-top: 8px;
+    color: #EEEEEE;
+    font-family: 'News Cycle', sans-serif;
+    font-size: .6em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+#template {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+
+.greenery {
+    background-image: url("./greens.jpg");
+    background-repeat: no-repeat;
+    filter: drop-shadow(4px 4px 4px #757575);
+}
+
+.spring {
+    background-image: url("./flowers.jpg");
+    background-repeat: no-repeat;
+    filter: drop-shadow(4px 4px 4px #757575);
+}
+
+.foil {
+    background-image: url("./blue.jpg");
+    background-repeat: no-repeat;
+    filter: drop-shadow(4px 4px 4px #757575);
+}
+
+@media screen and (max-width: 767px) {
+html {
+    font-size: 14px;
+}
+
+h3 {
+    margin: 0 0 16px 0;
+}
+
+header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    z-index: 22;
+    padding: 1.2rem 0;
+    background: white;
+}
+
+.flexbox {
+    display: flex; 
+    flex-direction: column; 
+}
+
+#form {
+    margin-top: 100px;
+}
+
+#template {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 0 0 16px 0; 
+    border: none;
+    border-bottom: 1px solid #607D8B;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.greenerytext {
+    margin-top: 150px;
+}
+
+.springtext {
+    margin-top: 175px;
+}
+
+.foiltext {
+    margin-top: 320px;
+}
+}
+
